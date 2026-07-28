@@ -7,4 +7,3 @@ class Student:
 
 s1 = Student()
 print(s1)
-# hgfh

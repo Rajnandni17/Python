@@ -1,7 +1,7 @@
 #1. Search an element in an array using Linear Search
 from array import array
 
-def linear_search():
+# def linear_search():
     arr = array('i', [10, 20, 30, 40, 50])
 
     key = int(input("Enter element to search: "))
@@ -66,4 +66,29 @@ def Count_even_odd():
 Count_even_odd()
 
 
+#Print your name, age and city.
+name=input("enter your name:")
+age=input("enter your age:")
+city=input("enter your city:")
 
+print(name)
+print(age)
+print(city)
+
+#Take two numbers as input and print their sum, difference, product and division.
+a=11
+b=2
+
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+
+#Swap two numbers with and without using a third variable.
+a=11
+b=2
+
+a,b=b,a
+
+print("a=",a)
+print("b=",b)

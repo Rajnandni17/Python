@@ -1,7 +1,7 @@
 #1. Search an element in an array using Linear Search
 from array import array
 
-# def linear_search():
+def linear_search():
     arr = array('i', [10, 20, 30, 40, 50])
 
     key = int(input("Enter element to search: "))
@@ -92,3 +92,162 @@ a,b=b,a
 
 print("a=",a)
 print("b=",b)
+
+#Check whether a number is positive, negative or zero
+def num():
+    n=int(input("enter the num:"))
+
+    if(n>0):
+        print("positive")
+    elif(n<0):
+        print("negative")
+    else:
+        print("zero")
+num()
+
+#Check whether a number is even or odd
+def check_num():
+    n=int(input("enter num:"))
+
+    if n %2==0:
+        print("num is even")
+    else:
+        print("num is odd")
+check_num()
+
+#Find the greatest of two numbers.
+def greatest():
+    n1=int(input("enter the num:"))
+    n2=int(input("enter the num:"))
+    if n1 > n2:
+        print(n1, "is greatest")
+    elif n2 > n1:
+        print(n2, "is greatest")
+    else:
+        print("Both numbers are equal")
+
+greatest()
+
+#Check whether a year is a leap year.
+def leap_year():
+    year = int(input("Enter year: "))
+    if year % 400 == 0 or (year % 4 == 0 and year % 100 != 0):
+        print("Leap year")
+    else:
+        print("Not a leap year")
+leap_year()
+
+#Find the greatest of three numbers
+def greatest():
+    n1=int(input("enter the num:"))
+    n2=int(input("enter the num:"))
+    n3=int(input("enter the num:"))
+    if n1 > n2 or n1 > n3:
+        print(n1, "is greatest")
+    elif n2 > n1 or n2 > n3:
+        print(n2, "is greatest")
+    elif n3 > n1 or n3 > n2:
+        print(n3, "is greatest")
+    else:
+        print("all numbers are equal")
+greatest()
+
+#Check whether a number is divisible by both 5 and 11.
+def num_divisible():
+    num=int(input("enter the num:"))
+
+    if num %5==0 and num %11 ==0:
+        print("num is divisible")
+    else:
+        print("not divisible")
+num_divisible()
+
+#Build a basic calculator using conditions
+
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+
+operator = input("Enter operator (+, -, *, /): ")
+
+if operator == "+":
+    print("Result:", a + b)
+
+elif operator == "-":
+    print("Result:", a - b)
+
+elif operator == "*":
+    print("Result:", a * b)
+
+elif operator == "/":
+    if b != 0:
+        print("Result:", a / b)
+    else:
+        print("Cannot divide by zero")
+
+else:
+    print("Invalid operator")
+
+#Calculate the factorial of a number
+def fact_num():
+    num=int(input("enetr the num:"))
+    factorial=1
+
+    for i in range(1,num+1):
+        factorial= factorial * i
+    print(factorial)
+fact_num()
+
+
+#Print the multiplication table of a number
+def fact_num():
+    num=int(input("enetr the num:"))
+
+    for i in range(1,11):
+        print(num,"*", i,"=", num * i )
+fact_num()
+
+#Find the sum of numbers from 1 to n
+def sum_num():
+    n=int(input("enter the num:"))
+    total= 0
+
+    for i in range(1,n+1):
+        total= total + i
+    print("sum =",total)
+sum_num()
+
+#Count the number of digits in an integer.
+def count():
+    num = int(input("Enter a number: "))
+    count =0
+
+    while num > 0:
+        count +=1
+        num //=10
+    print(" number of digits =", count)
+count()
+
+#Find the sum of digits of a number.
+def sum_digits():
+    num = int(input("Enter a number: "))
+    total =0
+    
+    while num > 0:
+
+        digit = num % 10
+        total = total + digit
+        num //= 10
+    print("sum =",  total)
+sum_digits()
+
+#Reverse an integer
+def reverse():
+    num=int(input("enetr the number:"))
+    reverse=0
+
+    for i in str(num):
+        digit= num %10
+        reverse= reverse * 10 + digit
+        num //=10
+    print("integer =",reverse)
+reverse()

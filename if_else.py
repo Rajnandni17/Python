@@ -1,12 +1,12 @@
 #Write a program to check whether a number is positive.
-# def check_num():
-#     num=int(input("enter number:"))
+def check_num():
+    num=int(input("enter number:"))
 
-#     if num >0:
-#         print("positive")
-#     else:
-#         print("not positive")
-# check_num()
+    if num >0:
+        print("positive")
+    else:
+        print("not positive")
+check_num()
 
 #Write a program to check whether a number is negative or positive.
 def check_num():
@@ -96,5 +96,4 @@ def assign_grades():
         print("grade C")
 assign_grades()
 
-#Write a program using nested if to check username and password.
   

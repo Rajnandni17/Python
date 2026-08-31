@@ -4,7 +4,7 @@ def name_set():
     print(my_set)
 name_set()
 
-#Add an item to a set.
+# Add an item to a set.
 def item_set():
     my_set={"car","keys","house","fruits"}
     my_set.add("toys")

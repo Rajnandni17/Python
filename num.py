@@ -1,16 +1,16 @@
-# def check_num():
-#    num=input("enter value")
-#    num=int(num)
+def check_num():
+   num=input("enter value")
+   num=int(num)
 
-#    if num> 0:
-#     print("positive")
-#    elif num< 0:
-#     print("negative")
-#    else:
-#     print("zero")
-# check_num()
+   if num> 0:
+    print("positive")
+   elif num< 0:
+    print("negative")
+   else:
+    print("zero")
+check_num()
 
-#Add two integer numbers
+# add two integer numbers
 a=13
 b=33
 z=a+b 

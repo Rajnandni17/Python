@@ -199,7 +199,7 @@ fact_num()
 
 #Print the multiplication table of a number
 def fact_num():
-    num=int(input("enetr the num:"))
+    num=int(input("enter the num:"))
 
     for i in range(1,11):
         print(num,"*", i,"=", num * i )
@@ -241,7 +241,7 @@ sum_digits()
 
 #Reverse an integer
 def reverse():
-    num=int(input("enetr the number:"))
+    num=int(input("enter the number:"))
     reverse=0
 
     for i in str(num):

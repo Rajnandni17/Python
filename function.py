@@ -129,7 +129,7 @@ greatest()
 #Write a function to calculate the area of a rectangle.
 def area():
     length=float(input("enter the length:"))
-    width=float(input("entert the width:"))
+    width=float(input("enter the width:"))
     area= length*width
     print(area)
 area()

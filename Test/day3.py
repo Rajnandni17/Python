@@ -29,9 +29,9 @@ print("Count of nums from 1 to",n,"divisible by 3 is:",count)
 
 #find larger num among N user_entered nums.
 n=int(input("Enter N:"))
-largest=int(input("Enter n:"))
+largest=0
  
-for i in range(n-1):
+for i in range(n):
     num=int(input("Enter value:"))
     if num>largest:
      largest=num

@@ -1,4 +1,4 @@
-# #add 2 nums
+# add 2 nums
 def add_numbers():
     num1= int(input("enter the first value:"))
     num2= int(input("enter the second value:"))

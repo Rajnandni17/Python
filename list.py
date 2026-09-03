@@ -32,7 +32,7 @@ fruits()
 
 # fruits()
 
-# #Add an item to a list.
+# Add an item to a list.
 def item():
     item_list=[]
     

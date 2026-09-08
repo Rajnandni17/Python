@@ -19,7 +19,7 @@ a=float(input("Enter 1st value:"))
 b=float(input("Enter 2nd value:"))
 c=float(input("Enter 3rd value:"))
 
-if a + b > c and a + c > b and b + c >a:
+if a + b > c and a + c > b and b + c > a:
     
     if a == b == c:
         print("Equilateral")
@@ -28,4 +28,4 @@ if a + b > c and a + c > b and b + c >a:
     else:
         print("Scalene")
 else:
-    print("Invalid triangle")
+    print("Invalid triangle" )

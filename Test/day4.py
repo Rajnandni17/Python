@@ -39,13 +39,13 @@ print(reverse)
 
 #find the first and last digit of a number.
 num=int(input("Enter the num:"))
-lastdigit=num%10
+last_digit=num%10
 
 while num>=10:
     num=num//10
-firstdigit=num 
-print(lastdigit)
-print(firstdigit) 
+first_digit=num 
+print(last_digit)
+print(first_digit) 
 
 #check whether num is palindrome.
 num=int(input("Enter num:"))

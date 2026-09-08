@@ -14,7 +14,6 @@ age=int(input("Enter age:"))
 print("Hi my name is",name,"and i am",age,"year old")
 
 #Convert a temperature from Celsius to Fahrenheit 
-convert a tem. from celsius to fahrenheit.
 celsius=float(input("Enter the celsius value:"))
 fahrenheit=(celsius * 9/5)+32
 

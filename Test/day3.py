@@ -13,13 +13,13 @@ for i in range(1,n+1):
     sum+=i
 print("Sum of nums from 1 to",n,"is:",sum)
 
-#print the multiplicationtable of a num.
+#print the multiplication of a num.
 n=int(input("Enter the num:"))
 
 for i in range(1,11):
     print(n,"*",i,"=",n*i)
 
-#count how mmany nums from 1 to N are divisible by 3.
+#count how many nums from 1 to N are divisible by 3.
 n=int(input("Enter N:"))
 count=0
 for i in range(1,n+1):
@@ -33,8 +33,8 @@ largest=0
  
 for i in range(n):
     num=int(input("Enter value:"))
-    if num>largest:
-     largest=num
+    if num > largest:
+        largest=num
 print("largest =",largest)
 
 #cal the product of num from 1 to N without using built in 

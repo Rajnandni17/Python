@@ -14,7 +14,7 @@ product= a*b
 quotient= a//b
 
 print(sum)
-print(diff)
+print(diff)                          
 print(product)
 print(quotient)
 

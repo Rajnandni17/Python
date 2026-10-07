@@ -188,7 +188,7 @@ else:
 
 #Calculate the factorial of a number
 def fact_num():
-    num=int(input("enetr the num:"))
+    num=int(input("enter the num:"))
     factorial=1
 
     for i in range(1,num+1):

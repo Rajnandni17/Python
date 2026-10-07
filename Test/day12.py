@@ -25,7 +25,6 @@ while left < right:
 else:
         print("Palindrome")
 
-
 #Check whether a string is a palindrome using two pointers.
 text=input("Enter the text:")
 left=0
